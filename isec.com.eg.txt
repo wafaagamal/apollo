@@ -1,0 +1,16 @@
+ Exploring: http://isec.com.eg/ 
+ Found subdomains:  
+    [*] http://www.isec.com.eg 
+    [*] http://mail.isec.com.eg 
+    [*] http://ftp.isec.com.eg 
+    [*] http://smtp.isec.com.eg 
+    [*] http://pop.isec.com.eg 
+    [*] http://autodiscover.isec.com.eg 
+    [*] http://autoconfig.isec.com.eg 
+    [*] http://imap.isec.com.eg 
+==================================================== 
+ http://www.isec.com.eg/ 
+==================================================== 
+ Searching admin page:  
+  ✘ No admin pages found 
+ Searching backdoors:  
