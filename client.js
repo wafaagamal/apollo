@@ -1,6 +1,7 @@
 const readline = require('readline');
 const chalk = require('chalk');
 const Explorer = require('./modules/explorer.js');
+const Search = require('./modules/search')
 
 
 class Appollo {
@@ -27,8 +28,8 @@ class Appollo {
 
         let command, args;
         rl.on('line', (input) => {
-            [command, ...args] = input.trim().split(' ');
-            this.command(command, args);
+            [command, ...args] = input.trim().split('--');
+            this.command(command.trim(), args);
         })
     }
 
@@ -42,18 +43,30 @@ class Appollo {
         switch (cmd) {
             case 'help':
             case 'exp':
-                this[cmd](args);
+            case 'search':
+                let opts = {};
+                args.forEach((i)=>{
+                    let splited = i.split(' ');
+                    let key = splited[0];
+                    splited.shift();
+                    let value = splited.join(' ');
+                    opts[key]=value.trim();
+                })
+                this[cmd](opts);
                 break;
             default:
                 this.resp('unknow command')
         }
     }
+    search(opts){
+        const search = new Search(opts)
+    }
 
-    help(args) {
+    help(opts) {
         this.resp('Available Commands: \n add: add taks \n ls: list \n delete: id');
     }
-    exp(args) {
-        const explorer = new Explorer(args[0]);
+    exp(opts) {
+        const explorer = new Explorer(opts.url);
     }
 
 }

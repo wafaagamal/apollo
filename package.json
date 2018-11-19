@@ -1,0 +1,25 @@
+{
+  "name": "apollo8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BahiHussein/Apollo8.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BahiHussein/Apollo8/issues"
+  },
+  "homepage": "https://github.com/BahiHussein/Apollo8#readme",
+  "dependencies": {
+    "opn": "^5.4.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}

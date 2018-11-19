@@ -1,0 +1,22 @@
+ Exploring: http://eserve-eg.com/ 
+ Found subdomains:  
+    [*] http://www.eserve-eg.com 
+    [*] http://mail.eserve-eg.com 
+    [*] http://ftp.eserve-eg.com 
+    [*] http://localhost.eserve-eg.com 
+    [*] http://smtp.eserve-eg.com 
+    [*] http://pop.eserve-eg.com 
+    [*] http://autoconfig.eserve-eg.com 
+    [*] http://imap.eserve-eg.com 
+==================================================== 
+ http://www.eserve-eg.com/ 
+==================================================== 
+ Searching admin page:  
+  ✘ No admin pages found 
+ Searching backdoors:  
+  ✘ No backdoors found 
+ Searching common directoris:  
+  ✘ No common directories found 
+ Searching common files:  
+  ✘ No common files found 
+ Passing params:  
