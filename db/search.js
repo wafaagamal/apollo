@@ -5,7 +5,7 @@ const search = [
         spaceTo: "+",
         targets: {
             person: [
-                "as_sitesearch=linkedin.com&&related::linkedin.com&&q=::fullname+::company+::title",
+                "as_sitesearch=linkedin.com&&related::linkedin.com&&q=::fullname+::company+::title+::address",
                 "q=inurl:::nickname&&as_sitesearch=twitter.com",
                 "q=inurl:::nickname&&as_sitesearch=facebook.com",
                 "as_epq=::fullname",
