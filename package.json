@@ -19,7 +19,7 @@
   "homepage": "https://github.com/BahiHussein/Apollo8#readme",
   "dependencies": {
     "chalk": "^2.4.1",
-    "opn": "^5.4.0",
+    "opn": "^6.0.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
   }
